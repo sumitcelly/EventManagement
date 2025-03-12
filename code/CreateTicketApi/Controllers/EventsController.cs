@@ -6,28 +6,29 @@ namespace CreateTicketApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class EventsController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-    private readonly ILogger<WeatherForecastController> _logger;
-
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    private readonly ILogger<EventsController> _logger;
+    private readonly EventContext _eventContext;
+    public EventsController(ILogger<EventsController> logger, EventContext eventContext)
     {
         _logger = logger;
+        _eventContext = eventContext;
     }
 
     [HttpGet]
-    [Route("/WeatherForecast/TestDb")]
-    public string GetEvents()
+    [Route("/Events/All")]
+    public List<Event> GetEvents()
     {
-        var eventCtxt = HttpContext.RequestServices.GetService(typeof(EventContext)) as EventContext;
-        List<Event> events = eventCtxt.GetAllEvents();
+        //var eventCtxt = HttpContext.RequestServices.GetService(typeof(EventContext)) as EventContext;
+        List<Event> events = _eventContext.GetAllEvents();
         _logger.LogInformation("Event received are {0}", JsonSerializer.Serialize(events));
-        return JsonSerializer.Serialize(events);
+        return events;
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
@@ -41,4 +42,5 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
 }

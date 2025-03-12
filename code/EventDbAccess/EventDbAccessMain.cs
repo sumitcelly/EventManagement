@@ -8,26 +8,29 @@ namespace EventDbAccess
   {
     public string ConnectionString { get; set; }
 
-     
+    private MySqlConnection mySqlConnection {get;}
     public EventContext(string connectionString)
     {
       this.ConnectionString = connectionString;
+      this.mySqlConnection = new MySqlConnection(connectionString); 
     }
 
     private MySqlConnection GetConnection()
     {
-      return new MySqlConnection(ConnectionString);
-      
+      if (mySqlConnection.State != System.Data.ConnectionState.Open)
+          mySqlConnection.Open();
+        
+      return mySqlConnection;
+    
     }
 
     public List<Event> GetAllEvents()
     {
       List<Event> list = new List<Event>();
 
-      using (MySqlConnection conn = GetConnection())
+      MySqlConnection conn = GetConnection();
       {
-        conn.Open();
-        
+    
         MySqlCommand cmd = new MySqlCommand("SELECT * FROM Events", conn);
         using (MySqlDataReader reader = cmd.ExecuteReader())
         {
