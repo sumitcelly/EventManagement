@@ -53,3 +53,4 @@ C:\temp\projects\eventmgmt\code\CreateTicketApi\bin\Debug\net8.0\runtimes\browse
 C:\temp\projects\eventmgmt\code\CreateTicketApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\temp\projects\eventmgmt\code\CreateTicketApi\bin\Debug\net8.0\EventDbAccess.dll
 C:\temp\projects\eventmgmt\code\CreateTicketApi\bin\Debug\net8.0\EventDbAccess.pdb
+C:\temp\Projects\eventmgmt\code\CreateTicketApi\obj\Debug\net8.0\CreateTicketApi.sourcelink.json

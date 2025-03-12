@@ -10,3 +10,4 @@ C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\refint\EventDbAcc
 C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.pdb
 C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\ref\EventDbAccess.dll
 C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.csproj.AssemblyReference.cache
+C:\temp\Projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.sourcelink.json
