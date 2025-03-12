@@ -1,0 +1,12 @@
+C:\temp\projects\eventmgmt\code\EventDbAccess\bin\Debug\net8.0\EventDbAccess.deps.json
+C:\temp\projects\eventmgmt\code\EventDbAccess\bin\Debug\net8.0\EventDbAccess.dll
+C:\temp\projects\eventmgmt\code\EventDbAccess\bin\Debug\net8.0\EventDbAccess.pdb
+C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.AssemblyInfoInputs.cache
+C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.AssemblyInfo.cs
+C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.csproj.CoreCompileInputs.cache
+C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.dll
+C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\refint\EventDbAccess.dll
+C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.pdb
+C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\ref\EventDbAccess.dll
+C:\temp\projects\eventmgmt\code\EventDbAccess\obj\Debug\net8.0\EventDbAccess.csproj.AssemblyReference.cache
