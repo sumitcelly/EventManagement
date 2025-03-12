@@ -17,6 +17,7 @@ namespace EventDbAccess
     private MySqlConnection GetConnection()
     {
       return new MySqlConnection(ConnectionString);
+      //fgf
     }
 
     public List<Event> GetAllEvents()
