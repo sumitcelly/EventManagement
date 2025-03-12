@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventDbAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5293d6d539eefbebce142fad0ccd2e361b987934")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4be5967b94c4aca15bc5aced5585983a6570f67f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventDbAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventDbAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
