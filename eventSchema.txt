@@ -41,3 +41,4 @@ Paid Amount
 
 //remove a field
 db.EventTickets.updateOne({ },{ $unset: { PartyCount:0}})
+//omgo
